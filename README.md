@@ -1,12 +1,15 @@
 # Trybe
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por _["Lauro"]("https://www.linkedin.com/in/lauro-pereira-sr/")_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Lauro](https://www.linkedin.com/in/lauro-pereira-sr/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
 _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
+
+<details>
+<summary>Bloco 1 ao 10</summary>
 
 ##### Bloco 1: Introdução - Unix & Shell
 
@@ -84,16 +87,20 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
 - [ ] 9-3: _Jest - Testes Assíncronos_
 - [ ] 9-4: _[Projeto - Carrinho de Compras]()_
-
+</details>
+  
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
+<details>
+<summary>Bloco 10 ao 18</summary>
+  
 ##### Bloco 10: Introdução à React
 
 - [ ] 10-1: _Introdução - Front-end_
 - [ ] 10-1: _Introdução - React_
 - [ ] 10-1: _'Hello, world' no React!_
 - [ ] 10-2: _Componentes React_
-- [ ] 10-3: [Projeto - Sistema Solar]()_
+- [ ] 10-3: _[Projeto - Sistema Solar]()_
 
 ##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 
@@ -143,9 +150,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 18: Projeto App de Receitas
 
 - [ ] 18-1: _[Projeto - App de Receitas]()_
+</details>
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
+<details>
+<summary>Bloco 19 ao 32</summary>
+  
 ##### Bloco 19: Docker: Utilizando Containers
 
 - [ ] 19-1: _Introdução - Back-end_
@@ -245,8 +256,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 32: Projeto - App de Delivery
 
 - [ ] 32-1: _[Projeto - App de Delivery]()_
+</details>
 
 ## Ciência da Computação :hourglass_flowing_sand:
+
+<details>
+<summary>Bloco 33 ao 38</summary>
 
 ##### Bloco 33: Introdução à Python
 
@@ -290,5 +305,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 38-1: _Nó e Listas Encadeadas_
 - [ ] 38-2: _Pilhas e Filas_
 - [ ] 38-3: _[Projeto - TING - Trybe Is Not Google]()_
+  
+</details>
 
-# [...]
+##
