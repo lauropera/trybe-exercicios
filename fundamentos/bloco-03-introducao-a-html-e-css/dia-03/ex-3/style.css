@@ -1,0 +1,19 @@
+h1, p {
+  text-align: center;
+}
+
+ol:hover, ul:hover {
+  transition: 150ms;
+  background-color: #eeeeee;
+  font-size: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+li:active {
+  transition-delay: 1s;
+  transition-timing-function: 3s;
+  font: 25px Arial;
+}
