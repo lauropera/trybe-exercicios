@@ -1,0 +1,83 @@
+body {
+  font-family: Archivo, sans-serif;
+  margin: 0;
+  background-color: #073564;
+  color: white;
+}
+
+.main-content {
+  display: inline-block;
+  padding: 8px;
+}
+
+.header {
+  background-image: url(/img/stock-deep-ocean-1550x804.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.title-container h1 {
+  padding: 15px 8px;
+  margin: 0;
+  color: white;
+}
+
+.navigation {
+  background-color: black;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 30px;
+  text-align: right;
+  padding: 0px 30px;
+}
+
+.navigation ul {
+  margin: 0px;
+  padding: 5px;
+}
+
+.navigation ul > li{
+  display: inline;
+  padding: 8px;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+td {
+  width: 100px;
+}
+
+.footer p {
+  margin: 0px;
+  text-align: center;
+  font-style: italic;
+}
+
+.footer a {
+  text-decoration: none;
+  color: gray;
+}
+
+.references ul, .references h2 {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin-top: 5px;
+}
+
+.footer {
+  list-style: none;
+  background-color: black;
+  padding: 10px;
+}
