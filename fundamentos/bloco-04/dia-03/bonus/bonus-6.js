@@ -1,9 +1,13 @@
-let i = 48;
+const n = 2;
+let isPrime = true;
 
-for (let index = 2; index <= i; index += 1) {
-  if(i % index === 0) {
-    console.log('Não é primo');
-  } else {
-    console.log('É primo');
+if (n === 1) {
+  isPrime = false;
+} else {
+  for (let index = 2; index < n; index += 1) {
+    if (n % index === 0) {
+      isPrime = false;
+    }
   }
 }
+console.log(`${n} é primo? ${isPrime}`);
