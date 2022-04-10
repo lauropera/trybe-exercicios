@@ -5,14 +5,94 @@ body {
   color: white;
 }
 
-.main-content {
-  display: inline-block;
+.main-section {
   padding: 8px;
+}
+
+.main-section h2 {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: black;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  
+}
+
+#main-article {
+  background-color: black;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 12px;
+}
+
+#main-article h3 {
+  text-align: justify;
+  margin-left: 15px;
+  
+}
+
+#main-article img , #third-article img {
+  border-radius: 20px;
+}
+
+#main-article p {
+  padding: 10px;
+  margin: 0 auto;
+  display: inline-block;
+  width: 520px;
+  vertical-align: top;
+  text-align: center;
+}
+
+#secondary-article {
+  margin: 0 auto;
+  padding: 12px;
+  text-align: center;
+  background-color: black;
+}
+
+#secondary-article p {
+  width: 400px;
+  margin: 20px auto;
+}
+
+#third-article {
+  background-color: black;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 12px;
+}
+
+#third-article img {
+  float: right;
+}
+
+#third-article div {
+  text-align: right;
+}
+
+#third-article h3 {
+  text-align: right;
+}
+
+#survive-instinct {
+  width: 400px;
+  display: inline-block;
+  padding: 12px;
+}
+
+#yt-video {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#yt-video h3 {
+  text-align: center;
 }
 
 .header {
   background-image: url(/img/stock-deep-ocean-1550x804.jpg);
-  background-attachment: fixed;
   background-size: cover;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -48,10 +128,16 @@ body {
   color: white;
 }
 
-table, th, td {
+#table {
+  padding: 8px;
+}
+
+table , th {
   border: 1px solid;
-  border-collapse: collapse;
+  border-radius: 10px;
   text-align: center;
+  margin: 0 auto;
+  position: relative;
 }
 
 td {
@@ -69,7 +155,7 @@ td {
   color: gray;
 }
 
-.references ul, .references h2 {
+.references ul , .references h2 {
   list-style: none;
   text-align: center;
   padding: 0;
