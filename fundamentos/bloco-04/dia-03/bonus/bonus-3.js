@@ -1,13 +1,16 @@
 let n = 5;
+let linha = '';
+let simbolo = '*';
 
-for (let index = 0; index < n; index += 1) {
-  let triangle = '';
-  for (let contador = n - 1; contador >= 0; contador -= 1) {
-    if (contador > index) {
-      triangle += ' ';
+
+for (let linhaIndex = 0; linhaIndex < n; linhaIndex += 1) {
+  for (let colunaIndex = n - 1; colunaIndex >= 0; colunaIndex -= 1) {
+    if (colunaIndex > linhaIndex) {
+      linha += ' ';
     } else {
-      triangle += '*';
+      linha += simbolo;
     }
   }
-  console.log(triangle);
+  console.log(linha);
+  linha = '';
 }

@@ -1,9 +1,10 @@
-let square = '';
 let n = 5;
+let linha = '';
+let simbolo = '*';
 
-for (let index = 0; index < 5; index += 1) {
-  square += '*';
+for (let linhaIndex = 0; linhaIndex < 5; linhaIndex += 1) {
+  linha += simbolo;
 }
-for (let index = 5; index > 0; index -= 1) {
-  console.log(square);
+for (let linhaIndex = 5; linhaIndex > 0; linhaIndex -= 1) {
+  console.log(linha);
 }

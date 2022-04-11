@@ -1,4 +1,4 @@
-const n = 2;
+let n = 2;
 let isPrime = true;
 
 if (n === 1) {

@@ -1,7 +1,8 @@
-let triangle = '';
 let n = 5;
+let linha = '';
+let simbolo = '*';
 
-for (let index = 0; index < n; index += 1) {
-  triangle += '*';
-  console.log(triangle);
+for (let linhaIndex = 0; linhaIndex < n; linhaIndex += 1) {
+  linha += simbolo;
+  console.log(linha);
 }
