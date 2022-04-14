@@ -45,7 +45,7 @@
 
       function changeHeaderText(classe, text) {
         let elementClass = document.getElementsByClassName(classe);
-        elementClass = elementClass[0].innerHTML = text;
+        elementClass = elementClass[0].innerText = text;
         return elementClass;
       }
 
@@ -59,7 +59,7 @@
       function printOnConsole(tag) {
         let elementTag = document.getElementsByTagName(tag);
         for (let index = 0; index < elementTag.length; index += 1) {
-          console.log(elementTag[index].innerHTML);
+          console.log(elementTag[index].innerText);
         }
       }
 
@@ -67,8 +67,8 @@
       changeBgColor('main-content', 'rgb(76,164,109)');
       changeBgColor('center-content', 'white');
       changeHeaderText('title', 'Exercício 5.1 - JavaScript');
-      printOnConsole('p');
       forceUpperCase('p');
+      printOnConsole('p');
     </script>
   </body>
 </html>
