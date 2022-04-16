@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      // COLOQUE SEU CÓDIGO AQUI
+
+      // Ex. 1
+      const body = document.body;
+      const elementH1 = document.createElement('h1');
+      elementH1.innerText = 'Exercício 5.2 - JavaScript DOM';
+      body.appendChild(elementH1);
+
+      // Ex. 2
+      const elementMain = document.createElement('main');
+      elementMain.className = 'main-content';
+      body.appendChild(elementMain);
+
+      // Ex. 3
+      const mainMC = document.getElementsByClassName('main-content');
+      const elementSection = document.createElement('section');
+      elementSection.className = 'center-content';
+      mainMC[0].appendChild(elementSection);
+
+      // Ex. 4
+      const sectionCC = document.getElementsByClassName('center-content')[0];
+      const paragraph = document.createElement('p');
+      paragraph.innerHTML = '<strong>Adicionando conteúdo</strong>';
+      sectionCC.appendChild(paragraph);
+
+      // Ex. 5
+      const elementsectionLeft = document.createElement('section');
+      elementsectionLeft.className = 'left-content';
+      mainMC[0].appendChild(elementsectionLeft);
+
+      // Ex. 6
+      const elementSectionRight = document.createElement('section');
+      elementSectionRight.className = 'right-content';
+      mainMC[0].appendChild(elementSectionRight);
+
+      // Ex. 7
+      const leftSection = document.getElementsByClassName('left-content')[0];
+      const elementImg = document.createElement('img');
+      elementImg.className = 'small-image';
+      elementImg.src = 'https://picsum.photos/200';
+      leftSection.appendChild(elementImg);
+
+      // Ex. 8
+      const rightSection = document.getElementsByClassName('right-content')[0];
+      const elementUl = document.createElement('ul');
+      rightSection.appendChild(elementUl);
+      const ulList = document.getElementsByTagName('ul')[0];
+
+      let numbers = [
+        'um',
+        'dois',
+        'três',
+        'quatro',
+        'cinco',
+        'seis',
+        'sete',
+        'oito',
+        'nove',
+        'dez',
+      ];
+      for (let index in numbers) {
+        const elementLi = document.createElement('li');
+        elementLi.innerText = numbers[index];
+        ulList.appendChild(elementLi);
+      }
+
+      // Ex. 9
+      for (let index = 0; index < 3; index += 1) {
+        const elementH3 = document.createElement('h3');
+        mainMC[0].appendChild(elementH3);
+      }
+
+      // Segunda Parte
+
+      // Ex. 1
+      elementH1.className = 'title';
+
+      // Ex. 2
+      const h3List = document.getElementsByTagName('h3');
+      for (let index = 0; index < 3; index += 1) {
+        h3List[index].className = 'description';
+      }
+
+      // Ex. 3
+      mainMC[0].removeChild(leftSection);
+
+      // Ex. 4
+      rightSection.style.marginRight = 'auto';
+
+      // Ex. 5
+      sectionCC.parentNode.style.backgroundColor = 'green';
+
+      // Ex. 6
+      elementUl.lastChild.remove();
+      elementUl.lastChild.remove();
+    </script>
+  </body>
+</html>
