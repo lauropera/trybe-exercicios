@@ -4,7 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Exercício 5.1</title>
-    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      main,
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -30,45 +55,39 @@
  Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
         */
-
-      function paragraphText(tag, text) {
-        let elementTag = document.getElementsByTagName(tag);
-        elementTag = elementTag[0].innerHTML = text;
-        return elementTag;
+      function changePText(texto) {
+        let tagP = document.getElementsByTagName('p');
+        tagP[0].innerText = texto;
+        return tagP;
       }
-
-      function changeBgColor(classe, cor) {
-        let elementClass = document.getElementsByClassName(classe);
-        elementClass = elementClass[0].style.backgroundColor = cor;
-        return elementClass;
+      function changeClassColor(className, color) {
+        let classColor = document.getElementsByClassName(className);
+        classColor[0].style.backgroundColor = color;
+        return classColor;
       }
-
-      function changeHeaderText(classe, text) {
-        let elementClass = document.getElementsByClassName(classe);
-        elementClass = elementClass[0].innerText = text;
-        return elementClass;
+      function changeTitle(titleClass) {
+        let title = document.getElementsByClassName(titleClass);
+        title[0].innerText = 'Exercício 5.1 - JavaScript';
+        return title;
       }
-
-      function forceUpperCase(tag) {
-        let elementTag = document.getElementsByTagName(tag);
-        for (let index = 0; index < elementTag.length; index += 1) {
-          elementTag[index].style.textTransform = 'uppercase';
+      function forceUpperCase(tagName) {
+        let tag = document.getElementsByTagName(tagName);
+        for (let position = 0; position < tag.length; position += 1) {
+          tag[position].style.textTransform = 'uppercase';
         }
       }
-
-      function printOnConsole(tag) {
-        let elementTag = document.getElementsByTagName(tag);
-        for (let index = 0; index < elementTag.length; index += 1) {
-          console.log(elementTag[index].innerText);
+      function printTag(tagName) {
+        let tag = document.getElementsByTagName(tagName);
+        for (let position = 0; position < tag.length; position += 1) {
+          console.log(tag[position].innerHTML);
         }
       }
-
-      paragraphText('p', 'Formado da Trybe e me sentir feliz comigo mesmo.');
-      changeBgColor('main-content', 'rgb(76,164,109)');
-      changeBgColor('center-content', 'white');
-      changeHeaderText('title', 'Exercício 5.1 - JavaScript');
+      changePText('Formado na Trybe e me sentindo feliz comigo mesmo.');
+      changeClassColor('main-content', 'rgb(76,164,109)');
+      changeClassColor('center-content', 'white');
+      changeTitle('title');
       forceUpperCase('p');
-      printOnConsole('p');
+      printTag('p');
     </script>
   </body>
 </html>
