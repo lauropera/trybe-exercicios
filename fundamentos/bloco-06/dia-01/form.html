@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TrybeTrip</title>
+  </head>
+  <body>
+    <header>
+      <h1>Header da página</h1>
+    </header>
+    <main id="main-content">
+    <form action="">
+      <div class="container">
+        <label for="name-input">Nome:</label>
+        <input
+          type="text"
+          name="full-name"
+          id="name-input"
+          minlength="10"
+          maxlength="40"
+        />
+      </div>
+      <div class="container">
+        <label for="email-input">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email-input"
+          minlength="10"
+          maxlength="50"
+        />
+      </div>
+      <div class="container">
+        <label for="mountains">
+          <input type="radio" name="places" id="mountains" />Montanhas
+        </label>
+        <label for="beach">
+          <input type="radio" name="places" id="beach" />Praia
+        </label>
+        <label for="moon">
+          <input type="radio" name="places" id="moon" />Lua
+        </label>
+        <label for="ocean">
+          <input type="radio" name="places" id="ocean" />Oceano
+        </label>
+      </div>
+      <div class="container">
+        <label for="about-area"
+          >Espaço para digitar a resposta:
+          <textarea
+            name="about"
+            id="about-area"
+            cols="30"
+            rows="10"
+            maxlength="500"
+          ></textarea>
+        </label>
+      </div>
+      <div class="container">
+        <label for="date-input"
+          >Data:
+          <input type="date" name="trip-date" id="date-input" />
+        </label>
+      </div>
+      <div class="container" id="terms-container">
+        <label for="agree1">
+          <input type="checkbox" name="terms" id="agree1" />Gostaria de receber
+          outras incríveis oportunidades oferecidas pela Trybe?
+        </label>
+        <label for="agree2">
+          <br />
+          <input type="checkbox" name="terms" id="agree2" required/>Concordo que imagens
+          das minhas férias poderão ser usadas na divulgação de concursos
+          futuros.
+        </label>
+      </div>
+    </main>
+    <br>
+    <div class="container">
+      <button type="submit" id="submit-button">Enviar</button>
+      <button type="reset" id="clear-forms">Apagar</button>
+    </div>
+  </form>
+  <script src="script.js"></script>
+  </body>
+</html>

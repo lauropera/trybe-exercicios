@@ -1,0 +1,22 @@
+#main-content {
+  width: 45%;
+  padding: 12px;
+  color: rgb(68, 68, 68);
+  border: 2px solid black;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+#about-area {
+  resize: none;
+  width: 65%;
+}
+
+#terms-container {
+  font-size: 15px;
+}
+
+#submit-button , #clear-forms {
+  width: 80px;
+  padding: 8px;
+}
