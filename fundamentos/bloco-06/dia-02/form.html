@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css"
+    integrity="sha512-IgmDkwzs96t4SrChW29No3NXBIBv8baW490zk5aXvhCD8vuZM3yUSkbyTBcXohkySecyzIrUwiF/qV0cuPcL3Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="dist/css/DatePickerX.min.css">
+  <script src="dist/js/DatePickerX.min.js"></script>
+  <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>TrybeTrip</title>
+</head>
+
+<body>
+  <header class="container has-text-centered">
+    <h1 class="title mb-5">TrybeTrip</h1>
+  </header>
+  <main class="container">
+    <form action="" id="form" class="container">
+
+      <div class="container mb-4">
+        <div class="field">
+          <label class="label" for="name-input">Nome</label>
+          <div class="control">
+            <input class="input" type="text" name="full-name" id="name-input" minlength="10" maxlength="40"
+              placeholder="p. ex. Lauro Pereira" autocomplete="off" />
+          </div>
+        </div>
+      </div>
+
+      <div class="container mb-4">
+        <div class="field">
+          <label class="label" for="email-input">Email</label>
+          <div class="control">
+            <input class="input" type="email" name="email" id="email-input" minlength="10" maxlength="50"
+              placeholder="p. ex. lauropera@gmail.com" />
+          </div>
+        </div>
+      </div>
+
+      <div class="container  mb-4">
+        <div class="control">
+          <label class="radio" for="mountains">
+            <input type="radio" name="places" id="mountains" /> Montanhas
+          </label>
+          <label class="radio" for="beach">
+            <input type="radio" name="places" id="beach" /> Praia
+          </label>
+          <label class="radio" for="moon">
+            <input type="radio" name="places" id="moon" /> Lua
+          </label>
+          <label class="radio" for="ocean">
+            <input type="radio" name="places" id="ocean" /> Oceano
+          </label>
+        </div>
+      </div>
+
+      <div class="container mb-4">
+        <label for="why">Espaço para digitar a resposta</label>
+        <div class="control">
+          <textarea class="textarea has-fixed-size" name="about" id="why" cols="30" rows="6"
+            maxlength="500"></textarea>
+        </div>
+      </div>
+
+      <div class="container mb-4">
+        <label class="label" for="date">Data</label>
+        <div class="control">
+          <input class="input" type="text" name="trip-date" id="date" placeholder="Escolha um dia" />
+        </div>
+      </div>
+
+      <div class="container mb-4">
+        <label class="checkbox" for="terms1">
+          <input type="checkbox" name="terms" id="terms1" /> Gostaria de receber
+          outras incríveis oportunidades oferecidas pela Trybe?
+        </label>
+        <label class="checkbox" for="terms2">
+          <input type="checkbox" name="terms" id="terms2" required /> Concordo que imagens
+          das minhas férias poderão ser usadas na divulgação de concursos
+          futuros.
+        </label>
+      </div>
+
+      <div class="container">
+        <button class="button is-primary" type="submit" id="submit-button">Enviar</button>
+        <button class="button is-light" type="reset">Apagar</button>
+      </div>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
