@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Ubuntu;
+  box-sizing: border-box;
+}
+
+
+.trybe-logo {
+  width: 50px;
+}
+
+.header {
+  background-color: darkslategrey;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 8px;
+}
+
+.technologies-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.technologies-container img {
+  width: 150px;
+  height: 150px;
+}
+
+.technologies {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 600px;
+}
+
+.tech-item {
+  margin: 6px;
+  background-color: rgb(236, 236, 236);
+  border-radius: 20px;
+  padding: 12px;
+  text-align: center;
+  box-shadow: 2px 2px 5px gray;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer img {
+  width: 40px;
+  height: 40px;
+  margin: 4px;
+}
