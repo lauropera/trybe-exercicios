@@ -1,0 +1,184 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  padding: 0;
+}
+
+body {
+  margin: 8px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+
+header ul li {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+header ul li:nth-child(1) {
+  margin-left: 0;
+}
+
+
+header p {
+  font-style: italic;
+}
+
+.aside-one {
+  margin-left: 25px;
+}
+
+.aside-two {
+  order: 1;
+  margin-left: 25px;
+}
+
+.aside-two ul {
+  list-style: none;
+}
+
+p {
+  text-align: justify;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  order: 2;
+  margin-left: 25px;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: #0c293a;
+    color: #efefef;
+  }
+
+  header p {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .main-content h1 {
+    font-size: 22px;
+  }
+
+  p {
+    max-width: 90%;
+  }
+
+  .main-content p {
+    font-size: 14px;
+  }
+
+  footer h3 {
+    font-size: 16px;
+  }
+
+  footer p {
+    font-size: 14px;
+    max-width: 90%;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  body {
+    background-color: rgb(0, 0, 0);
+    color: #efefef;
+  }
+  
+  header p {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .main-content h1 {
+    font-size: 28px;
+  }
+
+  p {
+    max-width: 80%;
+  }
+
+  .main-content p {
+    font-size: 16px;
+  }
+
+  footer h3 {
+    font-size: 16px;
+  }
+
+  footer p {
+    font-size: 14px;
+    max-width: 90%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: rgb(25, 77, 70);
+    color: #efefef;
+  }
+    
+  header p {
+    font-size: 24px;
+  }
+
+  header ul li {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  .main-content h1 {
+    font-size: 34px;
+  }
+
+  .main-content p {
+    font-size: 18px;
+  }
+
+  footer h3 {
+    font-size: 18px;
+  }
+
+  footer p {
+    font-size: 16px;
+    max-width: 800px;
+  }
+}
