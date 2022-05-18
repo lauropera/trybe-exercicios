@@ -40,7 +40,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 4-2: _JavaScript - Array e loop For_
 - [x] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [x] 4-4: _JavaScript - Objetos e funções_
-- [x] 4-5: _[Projeto - Playground Functions]()_
+- [x] 4-5: _Projeto - Playground Functions_
 
 ##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
 
@@ -49,11 +49,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5-3: _JavaScript - Eventos_
 - [x] 5-4: _JavaScript - Web Storage_
 - [x] 5-5: _Fundamentos - JavaScript - Projetos_
-- [x] 5-5: _[Projeto - Arte com Pixels]()_
-- [x] 5-6: _[Projeto - Lista de tarefas]()_
-- [x] 5-7: _[Projeto (Bônus) - Meme Generator]()_
-- [x] 5-7: _[Projeto (Bônus) - Adivinhe a Cor]()_
-- [x] 5-7: _[Projeto (Bônus) - Carta Misteriosa]()_
+- [x] 5-5: _Projeto - Arte com Pixels_
+- [x] 5-6: _[Projeto - Lista de tarefas](https://lauropera.github.io/todo-list/)_
+- [x] 5-7: _Projeto (Bônus) - Meme Generator_
+- [x] 5-7: _Projeto (Bônus) - Adivinhe a Cor_
+- [x] 5-7: _Projeto (Bônus) - Carta Misteriosa_
 
 ##### Bloco 6: HTML & CSS: Forms, Flexbox e Responsivo
 
@@ -63,14 +63,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 6-3: _CSS Flexbox - Part 1_
 - [x] 6-4: _CSS Flexbox - Part 2_
 - [x] 6-5: _CSS Responsivo - Mobile First_
-- [x] 6-6: _[Projeto - Trybewarts]()_
+- [x] 6-6: _Projeto - Trybewarts_
 
 ##### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
 
 - [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [x] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
 - [x] 7-3: _Primeiros passos em Jest_
-- [x] 7-4: _[Projeto - JavaScript Testes Unitários]()_
+- [x] 7-4: _Projeto - JavaScript Testes Unitários_
 
 ##### Bloco 8: Higher Order Functions do JavaScript ES6
 
@@ -79,7 +79,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [ ] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
 - [ ] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 8-6: _[Projeto - Zoo functions]()_
+- [ ] 8-6: _Projeto - Zoo functions_
 </details>
   
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
