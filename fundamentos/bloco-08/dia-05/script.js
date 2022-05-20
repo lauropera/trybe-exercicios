@@ -28,7 +28,8 @@ const gunnar = {
   nationality: 'Icelandic',
 };
 
-const personLikes = ({ name, age, likes }) => `${name} is ${age} years old and likes ${likes.join(', ')}.`;
+const personLikes = ({ name, age, likes }) =>
+  `${name} is ${age} years old and likes ${likes.join(', ')}.`;
 
 // Ex.4
 const people = [
@@ -59,8 +60,10 @@ const people = [
   },
 ];
 
-const filterPeople = () => people
-  .filter(({ nationality, bornIn }) => nationality === 'Australian' && bornIn >= 1901 && bornIn <= 2000);
+const filterPeople = () =>
+  people.filter(
+    ({ nationality, bornIn }) => nationality === 'Australian' && bornIn >= 1901 && bornIn <= 2000
+  );
 
 // Ex.5
 const myList = [1, 2, 3];
@@ -92,7 +95,7 @@ const ships = [
 
 const shipLength = ({ name, length, measurementUnit }) => {
   return `${name} is ${length} ${measurementUnit} long`;
-}
+};
 
 // Ex.8
 const greet = (name, msg = 'Hi') => `${msg} ${name}`;
@@ -108,4 +111,15 @@ const yearSeasons = {
 const { spring, summer, autumn, winter } = yearSeasons;
 const months = [...spring, ...summer, ...autumn, ...winter];
 
-module.exports = { sum, personLikes, alex, people, filterPeople, swap, toObject, ships, shipLength, greet };
+module.exports = {
+  sum,
+  personLikes,
+  alex,
+  people,
+  filterPeople,
+  swap,
+  toObject,
+  ships,
+  shipLength,
+  greet,
+};
