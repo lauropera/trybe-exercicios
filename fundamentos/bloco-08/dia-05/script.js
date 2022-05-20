@@ -70,6 +70,7 @@ const swap = ([a, b, c]) => [c, b, a];
 const palio = ['Palio', 'Fiat', 2019];
 const toObject = ([name, maker, year]) => ({ name, maker, year });
 
+console.log(toObject(palio));
 // Ex.7
 const ships = [
   {
@@ -107,6 +108,4 @@ const yearSeasons = {
 const { spring, summer, autumn, winter } = yearSeasons;
 const months = [...spring, ...summer, ...autumn, ...winter];
 
-console.log(months);
-
-module.exports = { sum, personLikes, alex, swap };
+module.exports = { sum, personLikes, alex, people, filterPeople, swap, toObject, ships, shipLength, greet };
