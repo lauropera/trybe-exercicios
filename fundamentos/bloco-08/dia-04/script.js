@@ -96,7 +96,7 @@ const longestNamedBook = (array) => {
     return longestBook;
   })
 }
-// console.log(longestNamedBook(books));
+console.log(longestNamedBook(books));
 
 const names = [
   'Aanemarie', 'Adervandes', 'Akifusa',
