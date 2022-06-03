@@ -34,11 +34,12 @@ function getPokemonDetails(filter, callback) {
 }
 
 getPokemonDetails(
-  ({ name }) => name === 'Charmander', 
+  ({ name }) => name === 'Charmander',
   (error, message) => {
-    if (error) return(error);
-    return(message);
-  });
+    if (error) return error;
+    return message;
+  }
+);
 
 module.exports = {
   getPokemonDetails,
