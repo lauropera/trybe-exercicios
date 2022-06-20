@@ -63,7 +63,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 6-3: _CSS Flexbox - Part 1_
 - [x] 6-4: _CSS Flexbox - Part 2_
 - [x] 6-5: _CSS Responsivo - Mobile First_
-- [x] 6-6: _Projeto - Trybewarts_
+- [x] 6-6: _[Projeto - Trybewarts](https://lauropera.github.io/trybewarts/)_
 
 ##### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
 
@@ -92,7 +92,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 9-1: _JavaScript Assíncrono e Callbacks_
 - [x] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
 - [x] 9-3: _Jest - Testes Assíncronos_
-- [x] 9-4: _[Projeto - Carrinho de Compras](https://github.com/lauropera/shopping-cart)_
+- [x] 9-4: _[Projeto - Carrinho de Compras](https://lauropera.github.io/shopping-cart/)_
   
 ##### Bloco 10: Introdução à React
 
