@@ -85,7 +85,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ## Desenvolvimento Front-end :heavy_check_mark:
 
 <details>
-<summary>Seções 1 ao 10</summary>
+<summary>Seções 1 a 10</summary>
 
 ##### Seção 1: JavaScript e Testes Assíncronos
 
@@ -247,12 +247,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Seção 13: Projeto - App de Delivery
 
 - [ ] 13-1: _[Projeto - App de Delivery]()_
-</details>
 
 ##### Seção 14: MasterClass - VPS, CI/CD
 
 - [ ] 12-1: _Dia 1_
 - [ ] 12-2: _Dia 2_
+</details>
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
