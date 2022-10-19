@@ -185,15 +185,15 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 4-2: _Node.js: API REST com Express_
 - [x] 4-3: _Node.js: Testes de Integração_
 - [x] 4-4: _Express: Middlewares_
-- [ ] 4-5: _Node.js: Express e Mysql_
-- [ ] 4-6: _[Projeto - Talker Manager]()_
+- [x] 4-5: _Node.js: Express e Mysql_
+- [x] 4-6: _[Projeto - Talker Manager](https://github.com/lauropera/talker-manager)_
 
 ##### Seção 5: Node.js: Camada de Serviço e Arquitetura Rest e Restful
 
-- [ ] 5-1: _Arquitetura de Software - Camada de Model_
-- [ ] 5-2: _Arquitetura de Software - Camada Service_
-- [ ] 5-3: _Arquitetura de Software - Camada Controller_
-- [ ] 5-4: _[Projeto - Store Manager]()_
+- [x] 5-1: _Arquitetura de Software - Camada de Model_
+- [x] 5-2: _Arquitetura de Software - Camada Service_
+- [x] 5-3: _Arquitetura de Software - Camada Controller_
+- [x] 5-4: _[Projeto - Store Manager](https://github.com/lauropera/store-manager)_
 
 ##### Seção 6: Node.js: ORM e Autenticação
 
