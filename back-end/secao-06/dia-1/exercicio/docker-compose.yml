@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  db:
+    container_name: books-db
+    image: mysql:8.0.23
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 'pass'
+    ports:
+      - '3306:3306'
+    volumes:
+      - books-db:/var/lib/mysql
+
+volumes:
+  books-db:
