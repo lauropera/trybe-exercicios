@@ -197,9 +197,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Seção 6: Node.js: ORM e Autenticação
 
-- [ ] 6-1: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 6-2: _ORM - Associations 1:1 e 1:N_
-- [ ] 6-3: _ORM - Associations N:N e Transactions_
+- [x] 6-1: _ORM - Interface da aplicação com o banco de dados_
+- [x] 6-2: _ORM - Associations 1:1 e 1:N_
+- [x] 6-3: _ORM - Associations N:N e Transactions_
 - [ ] 6-4: _JWT - (JSON Web Token)_
 - [ ] 6-5: _[Projeto - API de Blogs]()_
 
