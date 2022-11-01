@@ -200,18 +200,16 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 6-1: _ORM - Interface da aplicação com o banco de dados_
 - [x] 6-2: _ORM - Associations 1:1 e 1:N_
 - [x] 6-3: _ORM - Associations N:N e Transactions_
-- [ ] 6-4: _JWT - (JSON Web Token)_
-- [ ] 6-5: _[Projeto - API de Blogs]()_
+- [x] 6-4: _JWT - (JSON Web Token)_
+- [x] 6-5: _[Projeto - API de Blogs](https://github.com/lauropera/blogs-api)_
 
-##### Seção 7: Deployment
+##### Seção 7: Masterclass: Implantação de Aplicações na Nuvem
 
-- [ ] 7-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 7-2: _Deploy Docker & Heroku_
-- [ ] 7-3: _[Projeto - Stranger Things]()_
+- [x] 7-1: _Infraestrutura - Deploy com Railway_
 
 ##### Seção 8: TypeScript
 
-- [ ] 8-1: _Introdução ao TypeScript_
+- [x] 8-1: _Introdução ao TypeScript_
 - [ ] 8-2: _Tipagem Estática e Generics_
 - [ ] 8-3: _Express com TypeScript_
 - [ ] 8-4: _[Projeto - Trybe Smith]()_
