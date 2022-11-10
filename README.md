@@ -210,13 +210,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Seção 8: TypeScript
 
 - [x] 8-1: _Introdução ao TypeScript_
-- [ ] 8-2: _Tipagem Estática e Generics_
-- [ ] 8-3: _Express com TypeScript_
-- [ ] 8-4: _[Projeto - Trybe Smith]()_
+- [x] 8-2: _Tipagem Estática e Generics_
+- [x] 8-3: _Express com TypeScript_
+- [x] 8-4: _[Projeto - Trybe Smith](https://github.com/lauropera/trybesmith)_
 
 ##### Seção 9: Programação Orientada a Objetos (POO) e SOLID
 
-- [ ] 9-1: _Introdução à Orientação a Objetos_
+- [x] 9-1: _Introdução à Orientação a Objetos_
 - [ ] 9-2: _Herança e Interfaces_
 - [ ] 9-3: _Polimorfismo_
 - [ ] 9-4: _SOLID - Introdução e Princípios S, O e D_
